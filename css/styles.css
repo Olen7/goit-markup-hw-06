@@ -515,6 +515,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+    width: 264px;
 }
 .footer-link {
     margin-bottom: 16px;
@@ -534,6 +535,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 80px;
 }
 .social-media{
     font-family: 'Roboto';
@@ -550,7 +552,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 16px;
-
+    
     
 }
 .footer-soc-items {
@@ -574,6 +576,77 @@ img {
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*-----------------footer-email----------------*/
+.footer-conteiner-list{
+    position: relative;
+    width: 453px;
+    height: 80px;
+}
+.footer-form{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.text-subscribe{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-mail-user{
+    display: flex;
+    background-color: inherit;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 8px 16px 8px 16px;
+    Width:264px;
+    Height:40px;
+    margin-top: 16px;
+    margin-right: 24px;
+
+}
+.button-mail{
+   width: 165px;
+   height: 40px;
+   display: flex;
+   /* margin-left: auto; */
+   justify-content: center;
+   align-items: center;
+   padding: 8px 24px;
+   gap: 16px;
+   background-color: #4D5AE5;
+   border-radius: 4px;
+   border: none;
+   
+   color: #ffffff;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+}
+.button-mail:is(:hover, :focus){
+    background-color: #404BBF;
+}
+.button-mail-icon{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+  
 /*----------------Portfolio.html-----------------*/
 /*-----------------MAIN----------------------*/
 .button{
@@ -607,7 +680,7 @@ img {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     border-color: #404bbf;
-    transition-duration:2500ms;
+    transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
